@@ -1,0 +1,8 @@
+{
+  "checks": {
+    "cursing.filth": false,
+    "typography.symbols": false,
+    "needless_variants.misc": false,
+    "misc.phrasal_adjectives": false
+  }
+}

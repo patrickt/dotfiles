@@ -1,0 +1,5 @@
+.DS_Store
+.test.restclient
+.dir-locals.el
+.projectile
+.ptnotes.org
