@@ -1,3 +1,5 @@
 #!/bin/bash
 
+# linux only
+
 apt-get install fish
