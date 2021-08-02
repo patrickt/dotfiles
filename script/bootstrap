@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# linux only
+apt-get -y install fish direnv exa
 
-apt-get -y install fish direnv
+# Bat isn't on this
+wget https://github.com/sharkdp/bat/releases/download/v0.18.2/bat_0.18.2_amd64.deb
+dpkg -i bat_0.18.2_amd64.deb
 rm -rf ~/.config
 cp -r /workspaces/.codespaces/.persistedshare/dotfiles/.config ~/.config
 mkdir ~/.config/vscode-dev-containers
