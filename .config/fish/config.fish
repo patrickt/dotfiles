@@ -27,8 +27,8 @@ alias ts "tree-sitter"
 
 # status --is-interactive; and . (rbenv init -|psub)
 # source "/Users/patrickt/.config/fish/private.fish"
-source ~/.cargo/env
-loadghc
+# source ~/.cargo/env
+# loadghc
 # source "$HOME/.ghcup/env"
 
 function vterm_printf;
