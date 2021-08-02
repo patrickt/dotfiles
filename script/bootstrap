@@ -3,3 +3,7 @@
 # linux only
 
 apt-get -y install fish direnv
+rm -rf ~/.config
+cp -r /workspaces/.codespaces/.persistedshare/dotfiles/.config ~/.config
+mkdir ~/.config/vscode-dev-containers
+touch ~/.config/vscode-dev-containers/first-run-notice-already-displayed
