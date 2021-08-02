@@ -2,4 +2,4 @@
 
 # linux only
 
-apt-get install fish
+apt-get -y install fish direnv
