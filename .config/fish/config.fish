@@ -1,6 +1,6 @@
-set PATH /usr/local/opt/mysql@5.7/bin /Users/patrickt/.npm-global/bin /Users/patrickt/.local/bin /Library/TeX/texbin /usr/local/opt/avr-gcc@7/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /usr/X11/bin /Users/patrickt/go/bin
+# set PATH /usr/local/opt/mysql@5.7/bin /Users/patrickt/.npm-global/bin /Users/patrickt/.local/bin /Library/TeX/texbin /usr/local/opt/avr-gcc@7/bin /usr/local/bin /usr/bin /bin /usr/sbin /sbin /usr/X11/bin /Users/patrickt/go/bin
 
-set EDITOR /Applications/Emacs.app/Contents/MacOS/Emacs
+# set EDITOR /Applications/Emacs.app/Contents/MacOS/Emacs
 
 set SAVED_CMD "echo 'No last command to run.'"
 
