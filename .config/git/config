@@ -39,8 +39,6 @@
 	singlekey = true
 [github]
 	user = patrickt
-[credential]
-	helper = osxkeychain
 [init]
 	defaultBranch = main
 [filter "lfs"]
