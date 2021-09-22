@@ -7,3 +7,4 @@ wget https://github.com/sharkdp/bat/releases/download/v0.18.2/bat_0.18.2_amd64.d
 dpkg -i bat_0.18.2_amd64.deb
 
 cat bashrc >> ~/.bashrc
+cat .gitconfig >> ~/.gitconfig
