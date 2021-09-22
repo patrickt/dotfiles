@@ -1,0 +1,1 @@
+These dotfiles are intended to work on Codespaces instances. If you want to look at how I actually run a local machine, look [here](https://github.com/patrickt/emacs) or [here](https://github.com/patrickt/.config). Otherwise, keep it moving. Thanks. Peace.
