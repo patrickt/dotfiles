@@ -5,3 +5,5 @@ apt-get -y install fish direnv exa
 # Bat isn't on this
 wget https://github.com/sharkdp/bat/releases/download/v0.18.2/bat_0.18.2_amd64.deb
 dpkg -i bat_0.18.2_amd64.deb
+
+cat bashrc >> ~/.bashrc
