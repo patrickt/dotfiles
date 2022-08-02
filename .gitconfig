@@ -1,0 +1,47 @@
+[user]
+	name = Patrick Thomson
+	email = patrickt@github.com
+[push]
+	default = current
+[core]
+	trustctime = false
+	excludesfile = ~/.config/git/ignore
+	ignorecase = true
+[gc]
+	auto = 0
+[diff]
+	renames = copies
+	mnemonicprefix = true
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	fixup = commit -a --amend -C HEAD
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+  ui = true
+[grep]
+	lineNumber = true
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	reup = rebase @{u}
+[rerere]
+	enabled = 1
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[advice]
+	statusHints = false
+[interactive]
+	singlekey = true
+[github]
+	user = patrickt
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
