@@ -7,7 +7,6 @@ alias g="git"
 git config --global alias.co checkout
 git config --global alias.st status
 git config --global alias.br branch
-git config --global --bool push.autoSetupRemote true
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
